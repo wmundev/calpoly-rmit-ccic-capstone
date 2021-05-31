@@ -1,5 +1,5 @@
-###Project Setup Instructions 
-####Git Setup
+### Project Setup Instructions 
+#### Git Setup
 * Open a web browser and go to (https://git-scm.com/downloads)
 * Install it on the system ( for windows Downloads > file) then click on install. 
 ####code setup
@@ -7,17 +7,17 @@
 * In the local system navigate to rohini-blockchain-challenge
 * The This contains a HTML file and JavaScript libraries necessary to run the program.
 * The code for the base 58 encoder/decoder along with the connection to the bot is given on the bottom on the html page( under *body > script* ). This can be replaced with credentials that is obtained from Kommunicate. 
-#####AWS
+##### AWS
 * Sign up for an AWS Account. 
 * From the AWS Management Console, select *Amazon Lex*. 
 * Click on create button. 
 * Select custom bot.
 * Click on create. AWS Lex will begin to spin up a bot now. 
-#####Kommunicate
+##### Kommunicate
 * Open a browser and enter the website https://www.kommunicate.io/
 * Login using credentials 
 * If creating a new user ( Kommunicate will give instructions on how to add the connection details upon reaching the last step in sign up) 
-###Deployment 
+### Deployment 
 * Create a new AWS Account (https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * Go to https://s3.console.aws.amazon.com/ and sign into your AWS Account
 * Choose Create bucket and add a bucket name eg. ccic-blockchain
