@@ -14,18 +14,29 @@
 ####code setup
 * Clone the repository/ or download as Zip file. 
 * In the local system navigate to rohini-blockchain-challenge
-* The This contains a HTML file and JavaScript libraries necessary to run the program.
+* This contains a HTML file and JavaScript libraries necessary to run the program.
 * The code for the base 58 encoder/decoder along with the connection to the bot is given on the bottom on the html page( under *body > script* ). This can be replaced with credentials that is obtained from Kommunicate. 
-##### AWS
+
+##### AWS *(For creating Bot)* 
 * Sign up for an AWS Account. 
 * From the AWS Management Console, https://aws.amazon.com/console/ , select *Amazon Lex*. 
 * Click on create button. 
-* Select custom bot.
+* Select custom bot and add details.
 * Click on create. AWS Lex will begin to spin up a bot now. 
+
 ##### Kommunicate( OPTIONAL : For admin interface) 
 * Open a browser and enter the website https://www.kommunicate.io/
 * Login using credentials 
 * If creating a new user ( Kommunicate will give instructions on how to add the connection details upon reaching the last step in sign up) 
+* For more information:  https://docs.kommunicate.io/docs/bot-lex-integration
+
+##### Integrate Lex and Kommunicate 
+For integration, Kommunicate needs the details to query the bot on your behalf. You can get this information from AWS console.
+* Access key ID & Secret access key : An access key ID and secret access key are required to sign requests that you make using the AWS SDKs. To get your access key . Sign into your AWS console as an IAM user, navigate to your user name in the upper right section of the navigation bar. From the drop-down menu, select My Security Credentials. Then create an access key in Access keys for CLI, SDK, & API access section. 
+* Bot name in Lex platform : Lex needs a name for your bot when you create it. Once you created the bot, you can also get it from the bot’s home page. 
+* Bot alias : You create a bot alias when you publish the bot. It helps you to work with the multiple version of your bot. 
+* Region : AWS region where Lex service is running. You can find your region in top-right corner following the user name in AWS console. In our case, it is N.Virginia
+
 ### Deployment 
 * Create a new AWS Account (https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * Go to https://s3.console.aws.amazon.com/ and sign into your AWS Account
