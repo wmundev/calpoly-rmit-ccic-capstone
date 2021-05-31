@@ -1,4 +1,13 @@
-### Project Setup Instructions 
+# Github url of project 
+## Individual Github repository
+* https://github.com/rohinimohan14/hackBot
+## Group url of project 
+* https://github.com/wmundev/calpoly-rmit-ccic-capstone
+# URL of Deployed Project
+* *Landing on Base58* https://hackchatbot.cacyber.net/ 
+* credentials are not required to interact with bot
+
+# Project Setup Instructions 
 #### Git Setup
 * Open a web browser and go to (https://git-scm.com/downloads)
 * Install it on the system ( for windows Downloads > file) then click on install. 
@@ -9,11 +18,11 @@
 * The code for the base 58 encoder/decoder along with the connection to the bot is given on the bottom on the html page( under *body > script* ). This can be replaced with credentials that is obtained from Kommunicate. 
 ##### AWS
 * Sign up for an AWS Account. 
-* From the AWS Management Console, select *Amazon Lex*. 
+* From the AWS Management Console, https://aws.amazon.com/console/ , select *Amazon Lex*. 
 * Click on create button. 
 * Select custom bot.
 * Click on create. AWS Lex will begin to spin up a bot now. 
-##### Kommunicate
+##### Kommunicate( OPTIONAL : For admin interface) 
 * Open a browser and enter the website https://www.kommunicate.io/
 * Login using credentials 
 * If creating a new user ( Kommunicate will give instructions on how to add the connection details upon reaching the last step in sign up) 
