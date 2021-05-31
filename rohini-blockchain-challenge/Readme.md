@@ -29,7 +29,7 @@
 * Enter index.html and save from the box to enter index document
 * Go into Permissions, Clear Block all public access, and choose Save changes.
 * Under bucket policy, click edit and in bucket policy editor paste the following code.
-{
+```{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -45,6 +45,7 @@
         }
     ]
 }
+```
 * Update Bucket-Name in the bucket policy above to the name of your bucket eg. hackBot and save changes.
 * Click on properties and then static website hosting the bucket website endpoint will be displayed. Eg. https://hackchatbot.cacyber.net/
 * refer *https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html* for more details 
