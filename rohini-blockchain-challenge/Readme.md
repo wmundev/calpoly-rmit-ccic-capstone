@@ -29,7 +29,7 @@
 ### Deployment 
 * Create a new AWS Account (https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * Go to https://s3.console.aws.amazon.com/ and sign into your AWS Account
-* Choose Create bucket and add a bucket name eg. ccic-blockchain
+* Choose Create bucket and add a bucket name eg. hackBot
 * Choose the Region to create the bucket.
 * Accept defaults and after creating bucket, In the Buckets list, choose the name of the bucket that you want to enable static website hosting for.
 * Click on properties, then under Static website hosting, choose Edit.
